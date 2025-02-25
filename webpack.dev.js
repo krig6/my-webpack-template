@@ -14,4 +14,4 @@ module.exports = merge(common, {
     compress: true,
     port: 3000
   },
-})
+});
