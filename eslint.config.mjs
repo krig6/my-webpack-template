@@ -2,6 +2,14 @@ import globals from "globals";
 
 export default [
   {
+    files: ["eslint.config.mjs"],
+    rules: {
+      quotes: ["error", "double"],
+    },
+  },
+
+  {
+    ignores: ["eslint.config.mjs"],
     languageOptions: { globals: globals.browser },
     settings: {
       "import/resolver": {
