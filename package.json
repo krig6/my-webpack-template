@@ -16,7 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
-    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-config-standard": "^17.1.0",
     "eslint-import-resolver-webpack": "^0.13.10",
     "eslint-plugin-import": "^2.31.0",
     "gh-pages": "^6.3.0",

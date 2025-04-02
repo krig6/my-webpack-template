@@ -24,7 +24,7 @@ Alternatively, you can create a new repository and set this template as the upst
 git clone <template-repository-url>
 cd <repository-name>
 git remote remove origin
-git remote add origin <new-repository-url>
+git remote add origin git@github.com:<gitub-username>/<new-repository-name>.git
 git push -u origin main
 ```
 
