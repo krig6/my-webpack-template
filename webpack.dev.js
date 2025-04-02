@@ -1,19 +1,25 @@
 import { merge } from 'webpack-merge';
 
-import common from './webpack.common';
+import { dirname, resolve } from 'path';
 
-import { resolve } from 'path';
+import { fileURLToPath } from 'url';
+
+import * as common from './webpack.common.js';
+
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = dirname(__filename);
 
 export default merge(common, {
   mode: 'development',
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   devServer: {
     static: {
       directory: resolve(__dirname, 'dist')
     },
-    hot: true,
+    port: 3000,
     open: true,
     compress: true,
-    port: 3000
-  },
+    hot: true
+  }
 });
