@@ -4,11 +4,12 @@ Welcome to the Webpack Template! 🎉 This template provides a solid foundation 
 
 ## Features
 
-- Development and Production Builds: Separate configurations for development (webpack.dev.js) and production (webpack.prod.js).
-- CSS and Asset Handling: Pre-configured loaders for CSS and image files.
-- HTML Generation: Automatically generates an HTML file with dynamic script inclusion using HtmlWebpackPlugin.
-- Hot Module Replacement: Enables fast, live updates during development.
-- Optimized Output: Uses content hashing for cache busting in production builds.
+- **Development and Production Builds:** Separate configurations for development (webpack.dev.js) and production (webpack.prod.js).
+- **CSS and Asset Handling:** Pre-configured loaders for CSS and image files.
+- **HTML Generation:** Automatically generates an HTML file with dynamic script inclusion using HtmlWebpackPlugin.
+- **Hot Module Replacement:** Enables fast, live updates during development.
+- **Optimized Output:** Uses content hashing for cache busting in production builds.
+- **ESLint Configuration:** Code quality and consistency enforcement
 
 ## Getting Started
 
@@ -85,9 +86,8 @@ Note: Replace &lt;username&gt; with your GitHub username and &lt;repository-name
 │   ├── styles/       # CSS and styling files
 │   ├── index.js      # Main JavaScript entry point
 │   └── template.html # HTML template file
-├── .eslintrc.json    # ESLint configuration for code linting
+├── eslint.config.js  # ESLint configuration for code linting
 ├── .gitignore        # Specifies files to ignore in version control
-├── .prettierrc.json  # Prettier configuration for code formatting
 ├── README.md         # Project documentation
 ├── package.json      # Project metadata and dependencies
 ├── webpack.common.js # Common Webpack configuration
@@ -101,4 +101,13 @@ Feel free to modify the configuration files and project structure to fit your sp
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check out the issues page if you want to contribute.
+Contributions, bug reports, and feature suggestions are welcome!
+
+To contribute:
+
+1. **Fork the repository**
+2. **Create a feature branch**
+3. **Write tests for new functionality**
+4. **Ensure all tests pass**
+5. **Follow the existing code style**
+6. **Submit a pull request**
