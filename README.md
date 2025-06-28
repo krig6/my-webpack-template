@@ -21,16 +21,22 @@ Click the "**Use this template**" button on the repository page to create a new 
 Alternatively, you can create a new repository and set this template as the upstream:
 
 ```bash
-git clone <template-repository-url>
-cd <repository-name>
+# HTTPS (recommended for beginners)
+git clone https://github.com/krig6/my-webpack-template.git
+
+# SSH (if you have SSH keys configured)
+git clone git@github.com:krig6/my-webpack-template.git
+
+cd my-webpack-template
+
 git remote remove origin
-git remote add origin git@github.com:<gitub-username>/<new-repository-name>.git
+
+git remote add origin git@github.com:<github-username>/<new-repository-name>.git
+
 git push -u origin main
 ```
 
 ### 2. Install Dependencies
-
-Install the necessary packages with npm:
 
 ```bash
 npm install
