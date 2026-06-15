@@ -1,6 +1,8 @@
 # Webpack Template
 
-Welcome to the Webpack Template! 🎉 This template provides a solid foundation for starting a modern JavaScript project with Webpack, including development and production setups.
+## Overview
+
+This template provides a solid foundation for starting a modern JavaScript project with Webpack, including development and production setups.
 
 ## Features
 
@@ -101,13 +103,4 @@ Feel free to modify the configuration files and project structure to fit your sp
 
 ## Contributing
 
-Contributions, bug reports, and feature suggestions are welcome!
-
-To contribute:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-3. **Write tests for new functionality**
-4. **Ensure all tests pass**
-5. **Follow the existing code style**
-6. **Submit a pull request**
+This is a template repository. Contributions, improvements, and suggestions are welcome via pull requests.
